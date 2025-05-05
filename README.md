@@ -32,7 +32,7 @@ sudo pacman -S wine
 
 1. **Obrir WinMIPS64**
    ```bash
-   wine winmips64.exe
+   wine winmips64/winmips64.exe
    ```
 
 2. **Carregar l'arxiu**
