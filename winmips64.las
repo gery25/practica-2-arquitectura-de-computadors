@@ -1,0 +1,1 @@
+Z:\home\gerard\Escritorio\clase\2n curs\2n semestre\arquitectura\prac2\practica-2-arquitectura-de-computadors\calcul_serie.s
