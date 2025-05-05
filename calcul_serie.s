@@ -11,7 +11,7 @@ main:   daddi r1, r0, 0     ; Inicialitzem a 0 el comptador
         cvt.l.d f2, f2      ; Convertim a double
 
         daddi r4, r0, 3
-            mtc1 r4, f3         ; Movem 3 a f3
+        mtc1 r4, f3         ; Movem 3 a f3
         cvt.l.d f3, f3      ; Convertim a double
 
         daddi r4, r0, 4
