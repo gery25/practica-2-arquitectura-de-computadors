@@ -7,11 +7,7 @@ cinc: .double 5.0      ; Constant 5.0
 zero: .double 0.0      ; Constant 0.0
 .text
 main:   
-<<<<<<< Updated upstream
     daddi r1, r0, 1     ; Inicialitzem a 0 el comptador
-=======
-    daddi r1, r0, 0     ; Inicialitzem a 0 el comptador
->>>>>>> Stashed changes
     daddi r3, r0, 6     ; Inicialitzem a 5 el valor limit del bucle 
 
     ; Carreguem les constants en registres de punt flotant
@@ -39,18 +35,12 @@ loop:
 
     ; Fem la divisió
     div.d f10, f6, f7   ; (2n + 3)/(3n³ + 4n + 5)
-<<<<<<< Updated upstream
     add.d f11, f11, f10 ; afegim el valor del de la operacio optingut al registre del sumatori
 
     ; Incrementar comptador i comprovar
     daddi r1, r1, 1     ; Incrementem n
     bne r1, r3, loop    ; Si r1 != 5, tornem al bucle
 
-=======
-    s.d f10, resultat(r0) ; Guardem el resultat final
-    ; Incrementar comptador i comprovar
-    daddi r1, r1, 1     ; Incrementem n
-    bne r1, r3, loop    ; Si r1 != 5, tornem al bucle
     
->>>>>>> Stashed changes
-    halt                ; Fi del programa
+
+halt                ; Fi del programa
