@@ -1,1 +1,0 @@
-C:\Users\gerar\Desktop\clase\2n\2n semestre\arquitectura\practica-2-arquitectura-de-computadors\calcul_serie.s
